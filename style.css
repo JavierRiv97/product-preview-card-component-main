@@ -7,6 +7,8 @@ body {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f3ebe4;
+	font-family: 'Domine', serif;
+	font-weight: 400;
 }
 
 
@@ -14,8 +16,8 @@ body {
 	display: flex;
 	height: 450px;
 	width: 60%;
-	min-width: 500px;
-	max-width: 700px;
+	min-width: 510px;
+	max-width: 650px;
 	background-color: #ffffff;
 	border-radius: .5em .5em .5em .5em;
 }
@@ -28,11 +30,65 @@ body {
 	border-radius: .5em 0 0 .5em;
 }
 
+.head-text {
+	color: rgba(0, 0, 0, 0.65);
+}
+
 .product-info {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 	margin:0 auto;
 	padding-right: 10px;
 	padding-left: 10px;
 	width: 40%;
+}
+
+.product-name {
+	width: 185px;
+	font-weight: 700;
+}
+
+.product-description {
+	color: rgba(0, 0, 0, 0.65);
+	line-height: 1.4em;
+	margin-bottom:0;
+}
+
+.pricing {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 75px;
+}
+
+.discount-price {
+	margin-right: 20px;
+	font-weight: 700;
+	font-size: 2em;
+	color:rgb(60,130,104);
+}
+
+.original-price {
+	color: rgba(0, 0, 0, 0.65);
+	text-decoration: line-through;
+}
+
+button {
+	background-color:rgb(60,130,104);
+	border: none;
+	border-radius: .5rem;
+	padding: 15px;
+	margin-bottom: 20px;
+	color:white;
+	font-weight: 700;
+	transition: background-color 1s;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: rgba(60,130,104, 0.82);
 }
 
 .attribution { 
