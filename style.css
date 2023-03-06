@@ -14,7 +14,6 @@ body {
 
 .container {
 	display: flex;
-	height: 450px;
 	width: 60%;
 	min-width: 510px;
 	max-width: 650px;
@@ -97,6 +96,7 @@ button:hover {
 
 .attribution { 
 	font-size: 11px; text-align: center; 
+	margin-top: 1em;
 }
 
 .attribution a { 
@@ -124,8 +124,6 @@ button:hover {
 		background-color: yellow;
 		width: 90%;
 		min-width: 310px;
-		height: 602px;
-		min-height:75%;
 		border-radius: .5rem;
 		background-color: #ffffff;
 	}
@@ -169,7 +167,7 @@ button:hover {
 	}
 
 	button {
-		margin-bottom: 0;
+		margin-bottom: 1em;
 		margin-top: 1rem;
 	}
 }
